@@ -1,0 +1,33 @@
+    li:hover ul{display:block;}
+body {margin: 0px;    background-color: #CCCCCC;}
+.content {background-color: #FFFFFF;    padding-right: 6px;    padding-left: 6px;}
+.footer {background-color: #357f7f;    font-family: Arial, Helvetica, sans-serif;    font-size: 8px;    color: #FFFFFF;    position: absolute;}
+#content {background-color: #FFFFFF;    width: 100%;    height: 100%;    margin: 0 auto;    min-height: 100%;    height: auto;}
+a {text-decoration: none;}
+#wrapper {background-color: #FFFFFF;    width: 1280px;    min height: 100%;    position: relative;    height: auto;    min-height: 100%margin-top: 0;    margin-right: auto;    margin-bottom: 0;    margin-left: auto; }
+#content-spacer-top {height: 10px;}
+#content-spacer-bottom{height:1%;}
+#header {background-color: #357f7f;    height: 2%;    width: 100%;}
+#mainnav a  {font-family: Arial, Helvetica, sans-serif;    font-size: 16px;    color: #000000;    text-decoration: none;    background-color: #FFFFFF;    float: left;    text-align: center;    width: 14.28%;    padding-top: 6px;    padding-right: 0px;    padding-bottom: 6px;    padding-left: 0px;    display: block;    list-style-type: none;    clear: none;    margin: 0px;    height: 2%;    border-top-width: thin;    border-right-width: thin;    border-bottom-width: thin;    border-left-width: thin;    border-top-style: solid;    border-right-style: none;    border-bottom-style: solid;    border-left-style: none;    border-top-color: #357F7F;    border-right-color: #357F7F;    border-bottom-color: #357F7F;    border-left-color: #357F7F;}
+#mainnav ul {list-style-type: none;margin: 0px;padding: 0px;}
+#mainnav a:hover,#mainnav a:active,#mainnav a:focus {color: #FFFFFF;text-decoration: none;background-color: #357F7F;}
+.style2 {font-size: small;color: #FFFFFF;}
+a:visited {color: #FFFFFF;background-color: #357F7F;}
+.style4 {font-size: x-small}.style5 {background-color: #357f7f; font-family: arial;}#footer {width:1280px;height:120px;float:left;font-family: Arial, Helvetica, sans-serif;font-size: 10px;text-transform: uppercase;}
+*{margin: 0px;        padding: 0px;}
+body {font-family: verdana;        background-color: ABC;        padding: 50px;    }
+h1 {text-align: center;        border-bottom: 2px solid #009;        margin-bottom: 50px;    }
+/*rules for navigation menu */
+/*============================================*/
+ul#navmenu, ul.sub1 {list-style-type: none;<!-- sets bullets to none -->}
+ul#navmenu li {outline: 1px solid red;        width: 125px;        text- align: center;        position: relative;        float: left;        margin-right: 4px;    }
+ul#navmenu a {text-decoration: none;        display: block; <!-- this code makes the link a button instead  pointing specifically on the link -->        width: 125px;        height: 25px;        line-height: 25px;        background-color: #FFF;        border: 1px solid #CCC;        border-radius: 5px;    }
+ul#navmenu .sub1 li { }
+ul#navmenu .sub1 a {margin-top: 0px;    }
+ul#navmenu li:hover > a {background-color: #CFC; <!-- sets all link color when hovering to yellow  -->    }
+ul#navmenu li:hover a: hover
+{background-color: #FF0;ul#navmenu: hover a:hover <!-- sets all link color when hovering to yellow  -->    }
+ ul#navmenu ul.sub1 {display: none;        position: absolute;        top: 26px;        left: 0px;} 
+ ul#navmenu li:hover .sub1 {display: block;    }
+ li ul{display:none;}
+ li:hover ul{display:block;}
